@@ -287,4 +287,86 @@ progress {
   padding: 0.8rem;
 }
 
-/* @media screen {} */
+@media screen and (max-width: 540px) {
+  body {
+    width: 42rem;
+    margin: 2.2rem 0.5rem;
+    padding: 0;
+  }
+
+  .app {
+    width: 41rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-header {
+    width: 38rem;
+  }
+  .app-header h1 {
+    font-size: 4rem;
+  }
+
+  .main {
+    width: 35rem;
+  }
+
+  .start h2 {
+    font-size: 2.1rem;
+  }
+
+  .start h3 {
+    font-size: 1.5rem;
+  }
+
+  .questions-filter {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .questions-filter div {
+    margin: 0.8rem;
+  }
+
+  .questions-filter select {
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    margin-left: 0.7rem;
+    border-radius: 5px;
+  }
+
+  .progress {
+    margin-bottom: 2.5rem;
+    gap: 1.3rem;
+    grid-template-columns: auto auto;
+    font-size: 1.4rem;
+  }
+
+  .options button {
+    font-size: 1.5rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .btn-ui,
+  .timer {
+    font-size: 1.4rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .result {
+    border-radius: 80px;
+    padding: 1.1rem 0;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .highscore {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+}
