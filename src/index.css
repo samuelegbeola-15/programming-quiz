@@ -290,7 +290,7 @@ progress {
 @media screen and (max-width: 540px) {
   body {
     width: 42rem;
-    margin: 2.2rem 0.5rem;
+    margin: 3.5rem 0.5rem;
     padding: 0;
   }
 
@@ -315,6 +315,8 @@ progress {
 
   .start h2 {
     font-size: 2.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2.9rem;
   }
 
   .start h3 {
@@ -323,7 +325,7 @@ progress {
 
   .questions-filter {
     font-size: 1.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 
   .questions-filter div {
@@ -338,32 +340,34 @@ progress {
   }
 
   .progress {
-    margin-bottom: 2.5rem;
-    gap: 1.3rem;
+    margin-bottom: 4.5rem;
+    gap: 2.3rem;
     grid-template-columns: auto auto;
     font-size: 1.4rem;
   }
 
   .options button {
     font-size: 1.5rem;
-    padding: 0.6rem 1.5rem;
+    padding: 0.9rem 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .btn-ui,
   .timer {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 0.6rem 1.5rem;
   }
 
   .result {
     border-radius: 80px;
-    padding: 1.1rem 0;
+    padding: 1.4rem 0.4rem;
     font-size: 1.6rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.6rem;
   }
 
   .highscore {
     font-size: 1.6rem;
+    margin-bottom: 1.6rem;
   }
 
   h4 {
